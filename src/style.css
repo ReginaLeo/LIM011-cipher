@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-content:center;
+}
+
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+  }
+
+
+
+
+
+.box{
+    align-content:center;
+    height: 100px;
+    width: 500px;
+}
+
+.hide{
+  display: none
+   }
+
+body {
+    content: center;
+    align-items: center;
+    width: 200px;
+    height: 400px; 
+    background-color:black;
+    font-family: fantasy;   
+    margin-left: 200px;
+     }
+
+.content-header h1{
+    font-family:'Gill Sans MT', Calibri;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(10, 3, 14);
+    font-weight: 300;
+}
+.titulo{
+    color: #3ae70b;
+    font-family: 10px VT323,monospace;
+    font-size: 100px;
+    position: relative;
+    z-index: 3;
+    text-shadow: 0 0 5px #fff;
+    font-weight: 100;    
+    margin-left: 300px;
+}
+.content {
+    width: 300%;
+    padding: 50px;
+    border: 5px solid rgb(1, 13, 14);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 7px 7px rgb(243, 240, 240);
+   
+}
+.item {
+    font-size: 50px;
+    border-block-color: white;
+    text-align: center;
+}
+
+.box-msg-style {
+    width: 100%;
+    height: 130px;
+    resize: none;
+    outline: 3px;
+}
+.btn-code {
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(243, 230, 43);
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    box-shadow: 3px 3px 7px 1px #898989;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-reload {
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(243, 230, 43);
+    border-radius: 5px;
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    box-shadow: 3px 3px 7px 1px #898989;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+    }
+.option{
+    border: 0px;
+    width: 170px;
+    height: 50px;
+    background-color: rgb(243, 230, 43);
+    border-radius: 2px;
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+    box-shadow: 3px 3px 7px 1px #898989;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 100px; 
+}  
+    
+.msg-box {
+    width: 97%;
+    height: auto;
+    min-height: 130px;
+    background-color: #DADADA;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 1px #898989;
+}
+
+.msg-style p {
+    color: #666;
+}
+
+.display_none {
+    display: none;
+}
+
+.display_block {
+    display: block;
+}
+
+@media (max-width:767px) {
+    .content {
+        width: 85%;
+    }
+}

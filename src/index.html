@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Secret Post</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="https://www.pngfind.com/pngs/m/57-575615_sombrero-de-mago-png-transparent-png.png">
+</head>
+
+<body>
+  <!-- OPCIONES -->
+  <div id="cabecera" class="content">
+    <header class="content-header">
+      <h1>#SECRET POST#</h1>
+      <p class="item">Quiero:</p>
+    </header>
+    <button id="cipher-opt" class="option">CIFRAR</button>
+    <button id="decipher-opt" class="option">DESCIFRAR</button>
+  </div>
+
+  <!-- CIFRAR -->
+  <div id="Ciphering" class="hide">
+    <div id="cipher-zone" >
+      <header>
+        <h1 class= "titulo">CIFRAR</h1>
+        <p>Mensaje del Post:</p>
+      </header>
+      <textarea id="boxCipher" class="box" placeholder="Me siento..."></textarea>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <div class="secretNumber">
+      <label class="label"># CLAVE</label>
+      <input type="number" id="number_offsetc" class="number_offset_style">
+    </div>
+    <button id="btn_cipher" class="btn-cipher">CIFRAR</button>
+    <div id="msg-cipher" class="msg-box">
+     <!-- <textarea id="msg-cipher-check"></textarea>-->
+      <p id="msg-cipher-check" class="box"></p>
+    </div>
+    <button id="btnCleanc" class="btn-reload">Limpiar</button>
+    <button id="btnPlay" class="btn-reload">Inicio</button>
+  </div>
+  <!-- DESCIFRAR -->
+  <div id="Deciphering" class="hide">
+    <div id="decipher-zone" >
+      <header>
+        <h1 class= "titulo">DESCIFRAR</h1>
+        <p>Mensaje del Post:</p>
+      </header>
+      <textarea id="boxDecipher" class="box" placeholder="Me siento..."></textarea>
+    </div>
+    <div class="secretNumber">
+      <label class="label"># CLAVE</label>
+      <input type="number" id="number_offsetd" class="number_offset_style">
+    </div>
+    <button id="btn_decipher" class="btn-decipher">DESCIFRAR</button>
+    <div id="msg-decipher" class="msg-box">
+      <p id="msg-decipher-check" class="box"></p>
+    </div>
+    <button id="btnCleand" class="btn-reload">Limpiar</button>
+    <button id="btnStart" class="btn-reload">Inicio</button>
+  </div>
+
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
