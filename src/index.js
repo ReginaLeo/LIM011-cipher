@@ -46,7 +46,7 @@ window.onload = () => {
         let key_numberd = document.getElementById("number_offsetd")
         key_numberd.value = "";
         let cajaRespuestaD = document.getElementById("msg-decipher-check")
-        cajaRespuestaD.value = "";
+        cajaRespuestaD.innerHTML = "";
     });
 
     //tomando el valor del texto a cifrar 

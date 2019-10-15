@@ -24,10 +24,10 @@ window.cipher = {
             let caracterD = string[i];
             if (caracterD.match(/[a-z]/i)) {
                 if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90) {
-                    msjdescifrado += String.fromCharCode((string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65);
+                    msjdescifrado += String.fromCharCode((string.charCodeAt(i) - 90 - parseInt(offset)) % 26 + 90);
 
                 } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122) {
-                    msjdescifrado += String.fromCharCode((string.charCodeAt(i) - 97 + parseInt(offset)) % 26 + 97);
+                    msjdescifrado += String.fromCharCode((string.charCodeAt(i) - 122 - parseInt(offset)) % 26 + 122);
                 }
             } else {
                 msjdescifrado += caracterD;

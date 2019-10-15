@@ -1,72 +1,130 @@
-* {
-    margin: 0;
-    padding: 0;
-    align-content:center;
+html{
+    box-sizing: border-box;
 }
-
-.grid-container {
-    display: grid;
-    height: 400px;
-    align-content: center;
-  }
-
-
-
-
+.secretNumber{
+    display: inline-block;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    margin-left: 180px;
+}
 
 .box{
     align-content:center;
-    height: 100px;
+    height: 110px;  
+    width: 600px;
+    margin-left: 180px;
+    font-size: 20px;
+}
+
+
+.label{
+
+    font-size: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.inicial-button{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family:'IBM Plex Sans', sans-serif;
+    background-color: black;
+    background-size: 50px 50px;
     width: 500px;
 }
 
+.generic-button{
+    font-size: 29px;
+    text-align: center;
+    color: white;
+    font-family:'IBM Plex Sans', sans-serif;
+    background-color: black;
+    background-size: 20px 50px;
+    margin-left: 170px;
+    display: inline;
+}
+#cipher-zone{
+    text-align: center;
+    scroll-margin-left: 150px;
+    display: block;
+}
+.number_offset_style{
+    background-size: 20px 50px;
+    height: 50px;
+    width: 300px;
+}
 .hide{
   display: none
-   }
+  }
 
 body {
-    content: center;
     align-items: center;
     width: 200px;
-    height: 400px; 
-    background-color:black;
+    height: 500px; 
+    background-color:aquamarine;
     font-family: fantasy;   
-    margin-left: 200px;
-     }
+    margin-left: 250px;
+    background-size: 1366px 460px;
+    background-repeat: no-repeat;
+    }
 
 .content-header h1{
     font-family:'Gill Sans MT', Calibri;
-    font-size: 60px;
+    font-size: 90px;
     text-align: center;
-    color: rgb(10, 3, 14);
+    color: purple;
     font-weight: 300;
+    text-shadow: -3px 3px 3px black;
+  
+}
+.item{
+    margin-left: 300px;
+    margin-right: 280px;
+
+}
+.content-header p{
+    font-family:'Gill Sans MT', Calibri;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    display: flex;
+
+}
+.firstitle{
+    
+    background-color: whitesmoke;
+    font-family:'IBM Plex Sans', sans-serif;
+
 }
 .titulo{
-    color: #3ae70b;
-    font-family: 10px VT323,monospace;
-    font-size: 100px;
+    color: #333333;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 70px;
     position: relative;
-    z-index: 3;
-    text-shadow: 0 0 5px #fff;
-    font-weight: 100;    
-    margin-left: 300px;
+    margin-left: 210px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    
 }
 .content {
-    width: 300%;
-    padding: 50px;
-    border: 5px solid rgb(1, 13, 14);
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    background-color: #ffffff;
-    box-shadow: 7px 7px 7px 7px rgb(243, 240, 240);
-   
+    width: 400%;
+    height: 150%;
+    padding: 10px;
+    align-content: center;
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/izt.YUcap7aQ/v0/-999x-999.gif");
+    background-size: 820px 640px;
+    background-repeat: no-repeat;
 }
-.item {
-    font-size: 50px;
-    border-block-color: white;
-    text-align: center;
-}
+#button-box{
+    width: 600px;
+    height: 500px;
+    align-content: center;
+    margin-left: 150px;
+ 
+ }
 
 .box-msg-style {
     width: 100%;
@@ -78,12 +136,12 @@ body {
     border: 0px;
     width: 170px;
     height: 50px;
-    background-color: rgb(243, 230, 43);
+    background-color: black(243, 230, 43);
     border-radius: 5px;
     margin-top: 10px;
     color: black;
     font-size: 15px;
-    box-shadow: 3px 3px 7px 1px #898989;
+    box-shadow: 3px 3px 7px 1px black;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -91,39 +149,44 @@ body {
     border: 0px;
     width: 170px;
     height: 50px;
-    background-color: rgb(243, 230, 43);
+    background-color: black(243, 230, 43);
     border-radius: 5px;
     margin-top: 10px;
     color: black;
     font-size: 15px;
-    box-shadow: 3px 3px 7px 1px #898989;
+    box-shadow: 3px 3px 7px 1px black;
     cursor: pointer;
     transition: 0.4s;
     text-align: center;
     }
 .option{
     border: 0px;
-    width: 170px;
-    height: 50px;
-    background-color: rgb(243, 230, 43);
+    width: 300px;
+    height: 200px;
+    background-color:black;
     border-radius: 2px;
     margin-top: 10px;
-    color: black;
+    color: white;
     font-size: 25px;
-    box-shadow: 3px 3px 7px 1px #898989;
+    box-shadow: 3px 3px 7px 1px black;
     cursor: pointer;
     transition: 0.5s;
     margin-left: 100px; 
 }  
-    
+#msg-cipher-check{
+    margin-left: 5px;
+}  
+#msg-decipher-check{
+    margin-left: 5px;
+}  
+
 .msg-box {
-    width: 97%;
-    height: auto;
-    min-height: 130px;
+    align-content: center;
+    height: 100px;
+    width: 500px;
     background-color: #DADADA;
-    margin-top: 20px;
-    padding: 10px;
     box-shadow: 2px 2px 10px 1px #898989;
+    margin-left: 180px;
 }
 
 .msg-style p {

@@ -5,63 +5,69 @@
   <meta charset="utf-8">
   <title>Secret Post</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Source+Sans+Pro&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="https://www.pngfind.com/pngs/m/57-575615_sombrero-de-mago-png-transparent-png.png">
+  <link rel="icon" type="image/x-icon"
+    href="C:\Users\LENOVO\Desktop\LABORATORIA\PROYECTO 01\Galeria\kissclipart-police-officer-clipart-police-officer-clip-art-3d5eea714cdc0796.png">
 </head>
 
 <body>
   <!-- OPCIONES -->
-  <div id="cabecera" class="content">
-    <header class="content-header">
-      <h1>#SECRET POST#</h1>
-      <p class="item">Quiero:</p>
-    </header>
-    <button id="cipher-opt" class="option">CIFRAR</button>
-    <button id="decipher-opt" class="option">DESCIFRAR</button>
+<div id="cabecera" class="content">
+    <div>
+      <header class="content-header">
+        <h1 class="firstitle"> #SECRET POST#</h1>
+        <p> <strong>&#x1F9D0</strong> Publica estados encriptados en redes sociales <br>
+          <strong>&#x1F9D0</strong> Comparte la clave secreta de descifrado solo con tus amigos 
+        </p>
+        <p class="item">¡COMENZAR!</p>
+      </header>
+    </div>
+    <div id="button-box">
+      <button id="cipher-opt" class="inicial-button" >CIFRAR</button>
+      <button id="decipher-opt" class="inicial-button"  >DESCIFRAR</button>
+    </div>
   </div>
-
   <!-- CIFRAR -->
   <div id="Ciphering" class="hide">
-    <div id="cipher-zone" >
+    <div id="cipher-zone">
       <header>
-        <h1 class= "titulo">CIFRAR</h1>
-        <p>Mensaje del Post:</p>
-      </header>
-      <textarea id="boxCipher" class="box" placeholder="Me siento..."></textarea>
+        <h1 class="titulo"><img src="C:\Users\LENOVO\Desktop\LABORATORIA\PROYECTO 01\Galeria\cooltext338567091406274.png" height="100px"></h1>
+       </header>
+      <textarea id="boxCipher" class="box" placeholder="¿En qué estas pensando...?&#129300"></textarea>
     </div>
     <div class="secretNumber">
-      <label class="label"># CLAVE</label>
-      <input type="number" id="number_offsetc" class="number_offset_style">
+      <label class="label"><strong>CLAVE</strong> &#x1F512</label>
+      <input type="number" id="number_offsetc" class="generic-button">
     </div>
-    <button id="btn_cipher" class="btn-cipher">CIFRAR</button>
+    <button id="btn_cipher" class="generic-button">CIFRAR</button>
     <div id="msg-cipher" class="msg-box">
-     <!-- <textarea id="msg-cipher-check"></textarea>-->
+      <!-- <textarea id="msg-cipher-check"></textarea>-->
       <p id="msg-cipher-check" class="box"></p>
     </div>
-    <button id="btnCleanc" class="btn-reload">Limpiar</button>
-    <button id="btnPlay" class="btn-reload">Inicio</button>
+    <button id="btnCleanc" class="generic-button">LIMPIAR</button>
+    <button id="btnPlay" class="generic-button">INICIO</button>
   </div>
   <!-- DESCIFRAR -->
   <div id="Deciphering" class="hide">
-    <div id="decipher-zone" >
+    <div id="decipher-zone">
       <header>
-        <h1 class= "titulo">DESCIFRAR</h1>
-        <p>Mensaje del Post:</p>
+        <h1 class="titulo"><img src="C:\Users\LENOVO\Desktop\LABORATORIA\PROYECTO 01\Galeria\descifrar.png" height="100px"></h1>
       </header>
-      <textarea id="boxDecipher" class="box" placeholder="Me siento..."></textarea>
+      <textarea id="boxDecipher" class="box" placeholder="Copia y pega para descubrir tu mensaje oculto &#128561"></textarea>
     </div>
     <div class="secretNumber">
-      <label class="label"># CLAVE</label>
-      <input type="number" id="number_offsetd" class="number_offset_style">
+      <label class="label"><strong>CLAVE</strong>  &#x1F511</label>
+      <input type="number" id="number_offsetd" class="generic-button">
     </div>
-    <button id="btn_decipher" class="btn-decipher">DESCIFRAR</button>
+    <button id="btn_decipher" class="generic-button">DESCIFRAR</button>
     <div id="msg-decipher" class="msg-box">
       <p id="msg-decipher-check" class="box"></p>
     </div>
-    <button id="btnCleand" class="btn-reload">Limpiar</button>
-    <button id="btnStart" class="btn-reload">Inicio</button>
+    <button id="btnCleand" class="generic-button">LIMPIAR</button>
+    <button id="btnStart" class="generic-button">INICIO</button>
   </div>
-
+<footer> </footer>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
