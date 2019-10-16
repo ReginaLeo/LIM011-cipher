@@ -55,7 +55,7 @@ window.onload = () => {
     btnTextCipher.addEventListener("click", function () {
         let textCipher = document.getElementById("boxCipher").value;
         let number_offset = document.getElementById("number_offsetc").value;
-        document.getElementById("msg-cipher-check").innerHTML = window.cipher.encode(textCipher, number_offset);
+        document.getElementById("msg-cipher-check").innerHTML = cipher.encode(textCipher, number_offset);
     });
 
       //tomando el valor del texto a descifrar 
@@ -64,7 +64,7 @@ window.onload = () => {
     btnTextDecipher.addEventListener("click", function () {
         let textDecipher = document.getElementById("boxDecipher").value;
         let number_offset = document.getElementById("number_offsetd").value;
-        document.getElementById("msg-decipher-check").innerHTML = window.cipher.decode(textDecipher, number_offset);
+        document.getElementById("msg-decipher-check").innerHTML = cipher.decode(textDecipher, number_offset);
 
     });
 
