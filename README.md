@@ -18,9 +18,9 @@ Plataforma web dirigida a adolescentes que propone una herramienta para cifrar t
 
 
 ## 2. Imagen final
-(file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/final%2001.JPG)
-(file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/final%2002.JPG)
-(file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/final%2003.JPG)
+![INICIO](file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/final%2001.JPG)
+![CIFRADO](file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/final%2002.JPG)
+![DESCIFRADO](file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/final%2003.JPG)
 
 
 ## 3. Investigación UX
@@ -42,7 +42,7 @@ La necesidad de los usuarios es crear misterio y controversia alrededor de un me
 
 ### Primer prototipo en papel
 
-(file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/Galeria/prototipo.jpg)
+![A mano alzada](file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/Galeria/prototipo.jpg)
 
 ### Feedback recibido y mejoras a realizar
 * Faltaba información sobre el uso y beneficio de la aplicación
@@ -52,9 +52,9 @@ La necesidad de los usuarios es crear misterio y controversia alrededor de un me
 * Jerarquizar el contenido
 
 ###	Imagen del prototipo final
-(file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/pantalla%2002.JPG)
-(file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/pantalla%2003.JPG)
-(C:\Users\LENOVO\Desktop\LABORATORIA\PROYECTO 01\pantalla 02.JPG)
+![INICIO](file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/pantalla%2002.JPG)
+![CIFRADO](file:///C:/Users/LENOVO/Desktop/LABORATORIA/PROYECTO%2001/pantalla%2003.JPG)
+![DESCIFRADO](C:\Users\LENOVO\Desktop\LABORATORIA\PROYECTO 01\pantalla 02.JPG)
 
 
 ## 4. Proyecto en gh-pages
