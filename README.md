@@ -18,9 +18,9 @@ Plataforma web dirigida a adolescentes que propone una herramienta para cifrar t
 
 
 ## 2. Imagen final
-![INICIO](src/imagenes/final 01.JPG)
-![CIFRADO](src/imagenes/final 02.JPG)
-![DESCIFRADO](src/imagenes/final 03.JPG)
+![INICIO](src/imagenes/final01.JPG)
+![CIFRADO](src/imagenes/final02.JPG)
+![DESCIFRADO](src/imagenes/final03.JPG)
 
 
 ## 3. Investigación UX
@@ -52,9 +52,9 @@ La necesidad de los usuarios es crear misterio y controversia alrededor de un me
 * Jerarquizar el contenido
 
 ###	Imagen del prototipo final
-![INICIO](src/imagenes/pantalla 01.JPG)
-![CIFRADO](src/imagenes/pantalla 02.JPG)
-![DESCIFRADO](src/imagenes/pantalla 03.JPG)
+![INICIO](src/imagenes/pantalla01.JPG)
+![CIFRADO](src/imagenes/pantalla02.JPG)
+![DESCIFRADO](src/imagenes/pantalla03.JPG)
 
 
 ## 4. Proyecto en gh-pages
