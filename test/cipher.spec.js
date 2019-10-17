@@ -24,6 +24,11 @@ describe('cipher', () => {
      expect(cipher.encode('abcdefghijklmnopqrstuvwxyz',33)).toBe('hijklmnopqrstuvwxyzabcdefg');
     });
 
+    it('debería retornar "Ovsh" para "Hola" with offset 33', () => {
+      expect(cipher.encode('Hola',33)).toBe('Ovsh');
+     });
+ 
+
     // Hacker edition
     //
     // [Español]

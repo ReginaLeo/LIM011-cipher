@@ -66,12 +66,12 @@ La necesidad de los usuarios es crear misterio y controversia alrededor de un me
 ### UX
 ​
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
+- [x] Crear prototipos para obtener feedback e iterar.
 - [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 ​
 ### HTML y CSS
 ​
-- [x] Uso correcto de HTML semántico.
+- [ ] Uso correcto de HTML semántico.
 - [x] Uso de selectores de CSS.
 - [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 ​
@@ -79,15 +79,15 @@ La necesidad de los usuarios es crear misterio y controversia alrededor de un me
 ​
 - [x] Uso de selectores del DOM.
 - [x] Manejo de eventos del DOM.
-- [x] Manipulación dinámica del DOM.
+- [ ] Manipulación dinámica del DOM.
 ​
 ### Javascript
 ​
-- [ ] Manipulación de strings.
-- [x] Uso de condicionales (if-else | switch).
-- [x] Uso de bucles (for | do-while).	
+- [x] Manipulación de strings.
+- [ ] Uso de condicionales (if-else | switch).
+- [ ] Uso de bucles (for | do-while).	
 - [x] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [ ] Declaración correcta de variables (const & let).
+- [x] Declaración correcta de variables (const & let).
 ​
 ### Testing
 - [ ] Testeo de tus funciones.
@@ -98,7 +98,7 @@ La necesidad de los usuarios es crear misterio y controversia alrededor de un me
 ​
 ### Buenas prácticas de desarrollo
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+- [x] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
 

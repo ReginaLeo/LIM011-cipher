@@ -1,6 +1,9 @@
 html{
     box-sizing: border-box;
 }
+.text-center {
+    text-align: center;
+}
 .secretNumber{
     display: inline-block;
     font-family:'IBM Plex Sans', sans-serif;
@@ -19,7 +22,6 @@ html{
 .label{
 
     font-size: 40px;
-    text-align: center;
     color: #333333;
 }
 
